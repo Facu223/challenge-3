@@ -1,3 +1,4 @@
+// npm start - para iniciar el servidor
 const http = require("http");
 const host = "localhost";
 const port = 8000;
@@ -43,5 +44,7 @@ const server = http.createServer((req, res) => {
 
 // Levantando el servidor
 server.listen(port, host, () => {
-  console.log(`El servidor se está ejecutando en http://${host}:${port}/usuarios`);
+  console.log(
+    `El servidor se está ejecutando en http://${host}:${port}/usuarios`
+  );
 });

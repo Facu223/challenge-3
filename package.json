@@ -1,5 +1,5 @@
 {
-  "name": "ch3",
+  "name": "challenge-3",
   "version": "1.0.0",
   "description": "Aplicación que muestra la información de 5 usuarios, en formato JSON",
   "main": "index.js",
